@@ -31,25 +31,23 @@ public class AddAnimationEvents : MonoBehaviour
         AddEvent(0, time, "HeavyFootstep", 0);
         time += 1.4f;
         AddEvent(0, time, "HeavyFootstep", 0);
-
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Q))
-        {
-            //Make sure to assign the value of shakeFrequency in the inspector 
-            //or uncomment the next line to assign it here.
-            //shakeFrequency = 0.2f;
+        //if (Input.GetKey(KeyCode.Q))
+        //{
+        //    //Make sure to assign the value of shakeFrequency in the inspector 
+        //    //or uncomment the next line to assign it here.
+        //    //shakeFrequency = 0.2f;
 
-            cameraShake.CameraShakes();
-        }
-        else if (Input.GetKeyUp(KeyCode.Q))
-        {
-            cameraShake.StopShake();
-        }
+        //    cameraShake.CameraShakes();
+        //}
+        //else if (Input.GetKeyUp(KeyCode.Q))
+        //{
+        //    cameraShake.StopShake();
+        //}
 
         HandleShaking();
     }

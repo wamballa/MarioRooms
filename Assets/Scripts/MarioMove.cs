@@ -6,9 +6,7 @@ public class MarioMove : MonoBehaviour
 {
     float speed = .5f;
     public Transform target;
-
-
-    void Start()
+   void Start()
     {
         
     }

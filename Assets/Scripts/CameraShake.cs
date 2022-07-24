@@ -20,18 +20,6 @@ public class CameraShake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKey(KeyCode.S))
-        //{
-        //    //Make sure to assign the value of shakeFrequency in the inspector 
-        //    //or uncomment the next line to assign it here.
-        //    //shakeFrequency = 0.2f;
-
-        //    CameraShakes();
-        //}
-        //else if (Input.GetKeyUp(KeyCode.S))
-        //{
-        //    StopShake();
-        //}
     }
 
     public void CameraShakes()
