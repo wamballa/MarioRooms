@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MarioMove : MonoBehaviour
 {
-    float speed = .5f;
+    public float speed = .75f;
     public Transform target;
    void Start()
     {

@@ -17,7 +17,7 @@ public class AddAnimationEvents : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("START");
+        //print("START");
 
         // 30 frames = 1 second
         // 15 frames = 0.5

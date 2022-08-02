@@ -23,4 +23,9 @@ public class MarioController : MonoBehaviour
             audioSource.PlayOneShot(audioClip);
         }
     }
+
+    public void MarioTalk()
+    {
+        audioSource.PlayOneShot(audioClip);
+    }
 }
